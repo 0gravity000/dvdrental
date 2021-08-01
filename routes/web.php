@@ -23,3 +23,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/top', 'MainController@index');
 Route::get('/film', 'FilmController@index');
+Route::get('/rental', 'RentalController@index');
+Route::get('/customer', 'CustomerController@index');
