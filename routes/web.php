@@ -25,3 +25,6 @@ Route::get('/top', 'MainController@index');
 Route::get('/film', 'FilmController@index');
 Route::get('/rental', 'RentalController@index');
 Route::get('/customer', 'CustomerController@index');
+Route::get('/payment', 'PaymentController@index');
+Route::get('/inventory', 'InventoryController@index');
+Route::get('/actor', 'ActorController@index');
