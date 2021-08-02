@@ -28,3 +28,4 @@ Route::get('/customer', 'CustomerController@index');
 Route::get('/payment', 'PaymentController@index');
 Route::get('/inventory', 'InventoryController@index');
 Route::get('/actor', 'ActorController@index');
+Route::get('/actor_film', 'ActorFilmController@index');
