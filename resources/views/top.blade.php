@@ -10,6 +10,7 @@
     <a class="navbar-brand" href="/inventory">inventoryを見る</a><br>
     <a class="navbar-brand" href="/actor">actorを見る</a><br>
     <a class="navbar-brand" href="/actor_film">actor_filmを見る</a><br>
+    <a class="navbar-brand" href="/category">categoryを見る</a><br>
   </div>
 </div>
 @endsection
