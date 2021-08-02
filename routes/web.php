@@ -30,3 +30,4 @@ Route::get('/inventory', 'InventoryController@index');
 Route::get('/actor', 'ActorController@index');
 Route::get('/actor_film', 'ActorFilmController@index');
 Route::get('/category', 'CategoryController@index');
+Route::get('/category_film', 'CategoryFilmController@index');
