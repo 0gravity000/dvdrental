@@ -17,16 +17,16 @@
         </tr>
       </thead>
       <tbody>
-        @foreach ($Staffs as $Staff)
+        @foreach ($staffs as $staff)
         <tr>
-          <th scope="row">{{ $Staff->id }}</th>
-          <td>{{ $Staff->first_name }}</td>
-          <td>{{ $Staff->last_name }}</td>
-          <td>{{ $Staff->address_id }}</td>
-          <td>{{ $Staff->email }}</td>
-          <td>{{ $Staff->store_id }}</td>
-          <td>{{ $Staff->active }}</td>
-          <td>{{ $Staff->username }}</td>
+          <th scope="row">{{ $staff->id }}</th>
+          <td>{{ $staff->first_name }}</td>
+          <td>{{ $staff->last_name }}</td>
+          <td>{{ $staff->address_id }}</td>
+          <td>{{ $staff->email }}</td>
+          <td>{{ $staff->store_id }}</td>
+          <td>{{ $staff->active }}</td>
+          <td>{{ $staff->username }}</td>
         </tr>
         @endforeach
       </tbody>

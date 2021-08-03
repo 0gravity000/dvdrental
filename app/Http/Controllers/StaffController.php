@@ -16,8 +16,8 @@ class StaffController extends Controller
     public function index()
     {
         //
-        $Staffs = Staff::all();
-        return view('Staff_index', compact('Staffs'));
+        $staffs = Staff::all();
+        return view('staff_index', compact('staffs'));
     }
 
     /**
