@@ -12,6 +12,12 @@
     <a class="navbar-brand" href="/actor_film">actor_filmを見る</a><br>
     <a class="navbar-brand" href="/category">categoryを見る</a><br>
     <a class="navbar-brand" href="/category_film">category_filmを見る</a><br>
+    <a class="navbar-brand" href="/staff">staffを見る</a><br>
+    <a class="navbar-brand" href="/address">addressを見る</a><br>
+    <a class="navbar-brand" href="/city">cityを見る</a><br>
+    <a class="navbar-brand" href="/country">countryを見る</a><br>
+    <a class="navbar-brand" href="/store">storeを見る</a><br>
+    <a class="navbar-brand" href="/language">languageを見る</a><br>
   </div>
 </div>
 @endsection
